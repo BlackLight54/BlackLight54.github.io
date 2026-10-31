@@ -327,6 +327,65 @@ Formal verification of decentralized trust systems · Self-Sovereign Identity (S
 = Teaching & Supervision
 
 #resume-entry(
+  title: "Student research supervision · BME VIK TDK 2026",
+  date: "2026",
+  description: "Six registered papers · five students · four sections",
+  title-link: "https://tdk.bme.hu/conference/VIK/2026",
+)
+
+#resume-item[
+  - First-listed advisor on all six papers, co-supervised with Dr. Imre Kocsis.
+  - Ranked second by first-listed advisor assignments and fourth by papers advised in any position across the faculty's 201 registered papers (own count of the official roster, 31 October 2026).
+  - Research themes: verifiable credential issuance and revocation, Zero-Knowledge Proof circuit analysis, and formal verification and auditing of decentralized business processes.
+]
+
+// Award placements intentionally remain empty until official results are available.
+#let tdk-paper(title, student, section, url, placement: "") = {
+  resume-entry(
+    title: title,
+    title-link: url,
+    description: [#student · #section],
+  )
+  resume-item[Placement: #placement]
+}
+
+#tdk-paper(
+  "Decentralized verifiable credential revocation with atomic test-and-set for cross-organizational settings",
+  "Tibor Sinka", "Software",
+  "https://tdk.bme.hu/conference/VIK/2026/sessions/software/paper/Ellenorizheto-hitelesito-adatok-decentralizalt",
+)
+
+#tdk-paper(
+  "Automated Detection of Information Leakage in Overconstrained ZKP Circuits",
+  "Gábor Koncz", "Cybersecurity",
+  "https://tdk.bme.hu/conference/VIK/2026/sessions/kiber/paper/Informacioszivargas-automatikus-felismerese",
+)
+
+#tdk-paper(
+  "Joint anonymized issuance and revocation for complex verifiable credential chains",
+  "Csillag Kamilla Kocsis", "Networks",
+  "https://tdk.bme.hu/conference/VIK/2026/sessions/halo/paper/Joint-anonymized-issuance-and-revocation-for",
+)
+
+#tdk-paper(
+  "Bottom-Up Formal Verification Of Temporal Constraints In Self-Orchestrated Business Processes",
+  "Ferenc Smuk", "Modeling and simulation",
+  "https://tdk.bme.hu/conference/VIK/2026/sessions/model/paper/a-2",
+)
+
+#tdk-paper(
+  "Scalable Byzantine Fault-Tolerant Time Enforcement For Decentralized Business Collaborations",
+  "Ferenc Smuk", "Cybersecurity",
+  "https://tdk.bme.hu/conference/VIK/2026/sessions/kiber/paper/Skalazhato-bizanci-hibaturo-idokezeles",
+)
+
+#tdk-paper(
+  "Retrospective Auditing of Cross-Organizational Processes with Zero-Knowledge Proofs",
+  "Ádám Farkas", "Modeling and simulation",
+  "https://tdk.bme.hu/conference/VIK/2026/sessions/model/paper/Szervezetkozi-folyamatok-utolagos-auditja-nem",
+)
+
+#resume-entry(
   title: "BSc thesis & TDK supervision (BME VIK)",
   date: "2025",
   description: [_Cloud-ready, compositionally verifiable zero-knowledge evaluation of declarative policies_],

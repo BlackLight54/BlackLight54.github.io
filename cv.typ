@@ -174,6 +174,12 @@ Formal verification of decentralized trust systems · Self-Sovereign Identity (S
 = Service
 
 #resume-entry(
+  title: "Organizing committee member (invited)",
+  date: "2027",
+  description: "BCCA 2027",
+)
+
+#resume-entry(
   title: "Sub-reviewer · ICSE 2026 (Demonstrations track)",
   location: "for Grace Lewis · Nov 2025",
 )

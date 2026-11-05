@@ -144,6 +144,19 @@ Formal verification of decentralized trust systems · Self-Sovereign Identity (S
 = Publications
 
 #resume-entry(
+  title: [Trust No Pool: Formal Security Analysis of BPMN Collaborations],
+  location: "Toronto, Canada",
+  date: "Sep–Oct 2026",
+  description: [Farkas M., Kocsis I. · BPM 2026 (main track) · LNCS 16936, Springer, 2027 · pp. 111–127 · doi:10.1007/978-3-032-37777-7_9],
+  title-link: "https://doi.org/10.1007/978-3-032-37777-7_9",
+)
+
+#resume-item[
+  - *Best Student Paper Award — Runner-up* · #link("https://www.yorku.ca/events/bpm2026/awards/")[BPM 2026]
+  - Formal security analysis of BPMN collaborations with potentially dishonest participants, using Tamarin to discover attacks or prove their absence across different execution platforms.
+]
+
+#resume-entry(
   title: [A Self-Orchestration Model for Business Collaborations \ with Verifiable Process History Credentials],
   location: "Seville, Spain",
   date: "Aug 2025",
@@ -193,6 +206,14 @@ Formal verification of decentralized trust systems · Self-Sovereign Identity (S
 // =============================================================================
 
 = Awards & Honours
+
+#resume-entry(
+  title: "Best Student Paper Award — Runner-up",
+  location: "Toronto, Canada",
+  date: "2026",
+  description: [BPM 2026 · _Trust No Pool: Formal Security Analysis of BPMN Collaborations_ · with Imre Kocsis],
+  title-link: "https://www.yorku.ca/events/bpm2026/awards/",
+)
 
 #resume-entry(
   title: "3rd place — National Scientific Students' Conference (OTDK)",
